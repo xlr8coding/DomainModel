@@ -72,7 +72,7 @@ namespace VideoCompress
                 }
                 catch(Exception ex)
                 {
-                    MessageBox.Show("Error no se pudo leer el archivo" + ex.Message);
+                    MessageBox.Show("Error el archivo no pudo ser abierto" + ex.Message);
                 }
             }
         }
